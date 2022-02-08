@@ -1,4 +1,5 @@
-*{     /*on enleve le padding et margin par defaut de tout les elements 
+*{     
+    /*on enleve le padding et margin par defaut de tout les elements 
         et on fait en sorte que les tailles de paddings , bordures et du contenu sont comprisent 
         dans le width et height du block avec box-sizing:border-box*/
     padding:0;
