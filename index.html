@@ -4,9 +4,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="shortcut icon" href="images/unicorns/photo1.jpg" type="image/x-icon">
         <!--script pour pouvoir utiliser l'icône étoile du fontawesome-->
         <script type="text/javascript" src="https://kit.fontawesome.com/064cacfd70.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/styles/style.css">
         <title>My Unicorn</title>
     </head>
 
@@ -17,16 +18,29 @@
         <header>
                 <!--le logo à gauche de la barre -->
             <div id="logo">
-                MyUnicorn
+                <a href="#">MyUnicorn</a>
             </div>
                 <!--le menu de navigation à droite -->
-            <nav class="menu">
+            <nav>
                     <ul>
                         <li id="active"><a href="#principe">LE PRINCIPE</a</li>
                         <li><a href="#nos_licornes">NOS LICORNES</a></li>
                         <li><a href="#nous_trouver">NOUS TROUVER</a></li>
                     </ul>
             </nav>
+
+            <input type="checkbox" name="bars" id="bars">
+            <label for="bars">
+                Menu<i class="fa fa-caret-down" aria-hidden="true"></i>
+            </label>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#principe">LE PRINCIPE</a</li>
+                    <li><a href="#nos_licornes">NOS LICORNES</a></li>
+                    <li><a href="#nous_trouver">NOUS TROUVER</a></li>
+                </ul>
+            </div>
 
         </header>
 
@@ -71,22 +85,22 @@
 
                     <div class="img-licornes" >
                         <figure>
-                            <img src="images/unicorns/photo1.jpg" alt="Photo de de Lulu Confetty"/>
+                            <img src="assets/images/unicorns/photo1.jpg" alt="Photo de de Lulu Confetty"/>
                             <figcaption>Lulu Confetty</figcaption>
                         </figure>
 
                         <figure>
-                            <img src="images/unicorns/photo2.jpg" alt="Photo de Lapillon Magik"/>
+                            <img src="assets/images/unicorns/photo2.jpg" alt="Photo de Lapillon Magik"/>
                             <figcaption>Lapillon Magik</figcaption>
                         </figure>
 
                         <figure>
-                            <img src="images/unicorns/photo3.jpg" alt="Photo de El Ninjacorn"/>
+                            <img src="assets/images/unicorns/photo3.jpg" alt="Photo de El Ninjacorn"/>
                             <figcaption>El Ninjacorn</figcaption>
                         </figure>
 
                         <figure>
-                            <img src="images/unicorns/photo4.jpg" alt="Photo de Sweety Candy"/>
+                            <img src="assets/images/unicorns/photo4.jpg" alt="Photo de Sweety Candy"/>
                             <figcaption>Sweety Candy</figcaption>
                         </figure>
 
@@ -132,7 +146,7 @@
         
                                     <!--PIED DE LA PAGE-->
         <footer>
-            <p>2022 &copy;SaynaTeam</p>
+            <p>2022&copy;WebForce3</p>
         </footer>
 
     </body>

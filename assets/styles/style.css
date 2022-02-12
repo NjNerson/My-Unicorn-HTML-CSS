@@ -23,13 +23,22 @@ nav div, div#logo , nav ul li a{
 }
 
 div#logo {
-line-height: 2.8em;
-font-family: 'Courgette', cursive;
-font-size: 125%;
-margin-left: 2px;
-width: 16%;
-padding-left: 1.3em;
-font-style: italic;
+    width: 20%;
+    height: 100%;
+}
+div#logo a {
+    font-family: 'Courgette', cursive;
+    font-size: 175%;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 2px;
+    width: 70%;
+    height: 100%;
+    font-style: italic;
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+
 }
 
 nav {
@@ -61,6 +70,10 @@ nav ul li#active {
 
 nav ul li:hover {
     background-color: #EB43A3;
+}
+
+label, div.menu, input[type="checkbox"] {
+    display: none;
 }
 
 
@@ -130,7 +143,7 @@ div.img-licornes {
     justify-content: space-around;
 }
 
-figure,img{
+figure{
     width: 23%;
     display: inline-block;
     border-radius: 2px;
@@ -155,8 +168,7 @@ figcaption {
 }
             /*effet zoom au survol de l'image*/
 figure:hover {
-    transform: scale(1.19);
-    transition: .25s;
+    transform: scale(1.2);
 }
 
     /*section NOUS TROUVER*/
@@ -254,3 +266,5 @@ footer p {
     right: 1em;
     margin-top: 15px;
 }
+
+  
