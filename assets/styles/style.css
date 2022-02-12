@@ -38,6 +38,7 @@ div#logo a {
     text-decoration: none;
     color: #FFF;
     display: block;
+
 }
 
 nav {
@@ -69,6 +70,10 @@ nav ul li#active {
 
 nav ul li:hover {
     background-color: #EB43A3;
+}
+
+label, div.menu, input[type="checkbox"] {
+    display: none;
 }
 
 
@@ -138,7 +143,7 @@ div.img-licornes {
     justify-content: space-around;
 }
 
-figure,img{
+figure{
     width: 23%;
     display: inline-block;
     border-radius: 2px;
@@ -163,8 +168,7 @@ figcaption {
 }
             /*effet zoom au survol de l'image*/
 figure:hover {
-    transform: scale(1.19);
-    transition: .25s;
+    transform: scale(1.2);
 }
 
     /*section NOUS TROUVER*/
@@ -262,8 +266,7 @@ footer p {
     right: 1em;
     margin-top: 15px;
 }
-
-  /* vue adaptive ecran moins de 650px de large*/
+    /* vue adaptive ecran moins de 650px de large*/
 
 @media only screen and (max-width: 650px){
 
