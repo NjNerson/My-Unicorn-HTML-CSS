@@ -266,5 +266,50 @@ footer p {
     right: 1em;
     margin-top: 15px;
 }
+    /* vue adaptive ecran moins de 650px de large*/
+
+@media only screen and (max-width: 650px){
+
+    div#logo a {
+        font-size: 150%;
+        padding: 8px 3px;
+    }
+    
+    label {
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        right: 0;
+        margin: 10px 4px;
+        margin-right: 6px;
+        font-size: 1.5em;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+    nav, div.menu {
+        display: none;
+    }
+
+    #bars:checked + label > .fa-caret.down ,  #bars:checked + label + div.menu {
+        display: block;
+    }
+
+   .fa-caret-down {
+        color: #FFF;
+        padding: 0 5px;
+    }
+
+    label:hover {
+        text-decoration: underline;
+    }
+
+    div.menu {
+        border: 1px solid red;
+        
+    }
+
+    
+  }
 
   
